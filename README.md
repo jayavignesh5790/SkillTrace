@@ -1,5 +1,7 @@
 # 🚀 SkillTrace AI — Autonomous Multi-Agent Learning & Career Platform
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jayavignesh5790/SkillTrace)
+
 > **SRCAS Hackathon 3.0 (#BuildTheFuture) Official Submission**  
 > *Theme & Alignment: Addressing UN Sustainable Development Goal 4 (Quality Education) & Future of Work*  
 > *UI Style & Visual Identity inspired by: [https://www.hackathon2026.in/](https://www.hackathon2026.in/)*

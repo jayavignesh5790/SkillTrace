@@ -827,9 +827,10 @@ function generateCredentialWebPage(cred) {
 </html>`;
 }
 
-// HTTP Server
-const server = http.createServer(async (req, res) => {
-  const parsedUrl = new URL(req.url, `http://${req.headers.host}`);
+// HTTP Server & Exportable Request Handler for Local & Vercel Serverless
+export async function requestHandler(req, res) {
+  const host = req.headers.host || 'localhost:3000';
+  const parsedUrl = new URL(req.url, `http://${host}`);
   const pathname = parsedUrl.pathname;
   const method = req.method;
 
@@ -1634,11 +1635,17 @@ const server = http.createServer(async (req, res) => {
       res.end(content, 'utf-8');
     }
   });
-});
+}
 
-server.listen(PORT, () => {
-  console.log(`=======================================================`);
-  console.log(` SkillTrace Multi-Agent Server Running on http://localhost:${PORT}`);
-  console.log(` Loaded Careers: SOC Analyst, Data Analyst, Backend, Full Stack, AI/ML`);
-  console.log(`=======================================================`);
-});
+const server = http.createServer(requestHandler);
+
+if (!process.env.VERCEL) {
+  server.listen(PORT, () => {
+    console.log(`=======================================================`);
+    console.log(` SkillTrace Multi-Agent Server Running on http://localhost:${PORT}`);
+    console.log(` Loaded Careers: SOC Analyst, Data Analyst, Backend, Full Stack, AI/ML`);
+    console.log(`=======================================================`);
+  });
+}
+
+export default requestHandler;
