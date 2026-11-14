@@ -13,9 +13,9 @@
       "name": "Network Security & TCP/IP",
       "level": 88,
       "status": "Demonstrated",
-      "badgeType": "focus",
+      "badgeType": "strong",
       "barColor": "bg-emerald-500",
-      "badgeBg": "bg-emerald-50 text-emerald-700"
+      "badgeBg": "bg-emerald-100 text-emerald-800"
     },
     {
       "name": "SIEM & Log Analysis (Splunk/ELK)",
@@ -51,6 +51,17 @@
     }
   ],
   "evidenceRecords": [
+    {
+      "id": "EV-WARROOM-IR-TEST",
+      "skill": "Network Security & TCP/IP",
+      "type": "Proctored AI War Room Simulation",
+      "score": "100%",
+      "verifiedBy": "SkillTrace Multi-Agent Defense Engine (Evaluator/Red/Blue)",
+      "date": "Nov 14, 2026",
+      "badge": "Demonstrated",
+      "badgeColor": "bg-emerald-100 text-emerald-800",
+      "hash": "a08186665ba01833f0b5db94abbca0fef8e1b6942e6beb02a082d1bb54011e23"
+    },
     {
       "id": "cert-1794647174784",
       "skill": "HTML & CSS",
@@ -103,6 +114,12 @@
     }
   ],
   "agentTeamFeed": [
+    {
+      "agent": "Evaluator Agent",
+      "text": "VERIFIED incident resolution for #IR-TEST. Competency boosted to Demonstrated (88%+). Evidence stamped [a08186665b...].",
+      "time": "03:14 pm",
+      "dotColor": "bg-emerald-500"
+    },
     {
       "agent": "Skill Analyst",
       "text": "verified official certificate: Meta Front-End Developer Certificate from Coursera / Meta. Authenticity: 100%. Stored permanently in Web Vault at /credential/CRED-66376354.",
