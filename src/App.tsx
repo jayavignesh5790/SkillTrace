@@ -76,7 +76,7 @@ export const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#060813] text-slate-100 flex flex-col font-sans">
       {/* Top Header */}
-      <header class="border-b border-slate-800 bg-[#060813]/90 backdrop-blur sticky top-0 z-50">
+      <header className="border-b border-slate-800 bg-[#060813]/90 backdrop-blur sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-purple-600 p-[2px] shadow-lg">
