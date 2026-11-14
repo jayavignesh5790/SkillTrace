@@ -1,0 +1,229 @@
+{
+  "profile": {
+    "id": "learner-001",
+    "fullName": "Jaya Kumar",
+    "email": "jaya.kumar@srcas.edu",
+    "careerGoal": "soc-analyst",
+    "learningPace": "10 hours/week",
+    "streakDays": 0,
+    "weeklyHours": 0
+  },
+  "skills": [
+    {
+      "name": "Network Security & TCP/IP",
+      "level": 88,
+      "status": "Demonstrated",
+      "badgeType": "focus",
+      "barColor": "bg-emerald-500",
+      "badgeBg": "bg-emerald-50 text-emerald-700"
+    },
+    {
+      "name": "SIEM & Log Analysis (Splunk/ELK)",
+      "level": 100,
+      "status": "Demonstrated",
+      "badgeType": "focus",
+      "barColor": "bg-emerald-500",
+      "badgeBg": "bg-emerald-50 text-emerald-700"
+    },
+    {
+      "name": "Incident Response & MITRE ATT&CK",
+      "level": 0,
+      "status": "Needs focus",
+      "badgeType": "focus",
+      "barColor": "bg-slate-200",
+      "badgeBg": "bg-slate-100 text-slate-500"
+    },
+    {
+      "name": "Python & Bash Scripting",
+      "level": 0,
+      "status": "Needs focus",
+      "badgeType": "focus",
+      "barColor": "bg-slate-200",
+      "badgeBg": "bg-slate-100 text-slate-500"
+    },
+    {
+      "name": "Linux Forensics & Hardening",
+      "level": 0,
+      "status": "Needs focus",
+      "badgeType": "focus",
+      "barColor": "bg-slate-200",
+      "badgeBg": "bg-slate-100 text-slate-500"
+    }
+  ],
+  "evidenceRecords": [
+    {
+      "id": "cert-1794647174784",
+      "skill": "HTML & CSS",
+      "task": "Meta Front-End Developer Certificate (Coursera / Meta) • ID: CRED-66376354",
+      "date": "2026-11-14",
+      "type": "Verified Certificate",
+      "score": 96,
+      "weight": "40%",
+      "confidence": "100%",
+      "authenticity": "Cryptographically Verified",
+      "credentialId": "CRED-66376354",
+      "publicWebUrl": "/credential/CRED-66376354",
+      "certificateImage": null
+    },
+    {
+      "id": "cert-1794646302884",
+      "skill": "Network Security & TCP/IP",
+      "task": "Meta React Certificate (Coursera / Meta) • ID: CERT-98214",
+      "date": "2026-11-14",
+      "type": "Verified Certificate",
+      "score": 96,
+      "weight": "40%",
+      "confidence": "100%",
+      "authenticity": "Cryptographically Verified",
+      "credentialId": "CERT-98214",
+      "publicWebUrl": "/credential/CERT-98214",
+      "certificateImage": null
+    },
+    {
+      "id": "test-1794646225155",
+      "skill": "SIEM & Log Analysis (Splunk/ELK)",
+      "task": "Milestone Assessment: Networking & Threat Telemetry (Video & Proctored Test)",
+      "date": "2026-11-14",
+      "type": "Proctored Milestone Test",
+      "score": 100,
+      "weight": "45%",
+      "confidence": "95%",
+      "authenticity": "Evaluator Proctored"
+    },
+    {
+      "id": "test-1794645689381",
+      "skill": "SIEM & Log Analysis (Splunk/ELK)",
+      "task": "Milestone Assessment: Networking & Threat Telemetry (Video & Proctored Test)",
+      "date": "2026-11-14",
+      "type": "Proctored Milestone Test",
+      "score": 100,
+      "weight": "45%",
+      "confidence": "95%",
+      "authenticity": "Evaluator Proctored"
+    }
+  ],
+  "agentTeamFeed": [
+    {
+      "agent": "Skill Analyst",
+      "text": "verified official certificate: Meta Front-End Developer Certificate from Coursera / Meta. Authenticity: 100%. Stored permanently in Web Vault at /credential/CRED-66376354.",
+      "time": "02:36 pm",
+      "dotColor": "bg-emerald-500"
+    },
+    {
+      "agent": "Skill Analyst",
+      "text": "REJECTED upload \"img.jpg\". Verification Blocked: Certificate lacks a verifiable QR code or accreditation link. Authentic certificates must contain a QR code or official link. Please click 'Embed Verifiable QR Code & Official Link' or enter a verification URL.",
+      "time": "02:36 pm",
+      "dotColor": "bg-rose-500"
+    },
+    {
+      "agent": "Skill Analyst",
+      "text": "verified official certificate: Meta React Certificate from Coursera / Meta. Authenticity: 100%. Stored permanently in Web Vault at /credential/CERT-98214.",
+      "time": "02:21 pm",
+      "dotColor": "bg-emerald-500"
+    },
+    {
+      "agent": "Evaluator Agent",
+      "text": "verified 100% video completion & passed milestone test for \"Networking & Threat Telemetry\" with 100% score!",
+      "time": "02:20 pm",
+      "dotColor": "bg-emerald-500"
+    },
+    {
+      "agent": "Evaluator Agent",
+      "text": "assessment for \"Networking & Threat Telemetry\": FAILED with 0%. Passing score is 66%+. Milestone remains In progress.",
+      "time": "02:20 pm",
+      "dotColor": "bg-rose-500"
+    },
+    {
+      "agent": "Evaluator Agent",
+      "text": "verified 100% video completion & passed milestone test for \"Networking & Threat Telemetry\" with 100% score!",
+      "time": "02:11 pm",
+      "dotColor": "bg-emerald-500"
+    },
+    {
+      "agent": "Auth Agent",
+      "text": "verified session for \"jaya.kumar@srcas.edu\". Dummy security code 492018 authenticated.",
+      "time": "01:58 pm",
+      "dotColor": "bg-emerald-500"
+    },
+    {
+      "agent": "Auth Agent",
+      "text": "verified session for \"priya.sharma@cyber.org\". Dummy security code 492018 authenticated.",
+      "time": "01:58 pm",
+      "dotColor": "bg-emerald-500"
+    },
+    {
+      "agent": "Auth Agent",
+      "text": "verified session for \"jaya.kumar@srcas.edu\". Dummy security code 492018 authenticated.",
+      "time": "01:57 pm",
+      "dotColor": "bg-emerald-500"
+    },
+    {
+      "agent": "Path Planner",
+      "text": "adapted roadmap for SOC Analyst. Initialized all skills to 0% baseline.",
+      "time": "01:49 pm",
+      "dotColor": "bg-purple-500"
+    },
+    {
+      "agent": "Evaluator Agent",
+      "text": "verified 100% video completion & passed milestone test for \"Networking & Threat Telemetry\" with 100% score!",
+      "time": "01:48 pm",
+      "dotColor": "bg-emerald-500"
+    },
+    {
+      "agent": "Evaluator Agent",
+      "text": "assessment for \"Networking & Threat Telemetry\": FAILED with 33%. Passing score is 66%+. Milestone remains In progress.",
+      "time": "01:48 pm",
+      "dotColor": "bg-rose-500"
+    },
+    {
+      "agent": "Path Planner",
+      "text": "adapted roadmap for SOC Analyst. Initialized all skills to 0% baseline.",
+      "time": "01:48 pm",
+      "dotColor": "bg-purple-500"
+    },
+    {
+      "agent": "Path Planner",
+      "text": "adapted roadmap for UI/UX Designer. Initialized all skills to 0% baseline.",
+      "time": "01:48 pm",
+      "dotColor": "bg-purple-500"
+    },
+    {
+      "agent": "Path Planner",
+      "text": "adapted roadmap for DevOps Engineer. Initialized all skills to 0% baseline.",
+      "time": "01:48 pm",
+      "dotColor": "bg-purple-500"
+    },
+    {
+      "agent": "Path Planner",
+      "text": "adapted roadmap for SOC Analyst. Initialized all skills to 0% baseline.",
+      "time": "01:48 pm",
+      "dotColor": "bg-purple-500"
+    },
+    {
+      "agent": "Skill Analyst",
+      "text": "initialized fresh learner profile. All skills currently at 0% baseline.",
+      "time": "Just now",
+      "dotColor": "bg-blue-500"
+    },
+    {
+      "agent": "Path Planner",
+      "text": "sequenced roadmap. Complete Milestone 1 or upload credentials to verify skills.",
+      "time": "Just now",
+      "dotColor": "bg-amber-500"
+    },
+    {
+      "agent": "AI Mentor",
+      "text": "is ready to assist with your personalized exercises.",
+      "time": "Ready when you are",
+      "dotColor": "bg-blue-500"
+    }
+  ],
+  "autopsy": {
+    "active": false,
+    "task": "API & Validation Assessment Challenge",
+    "hypothesis": "No failure diagnosed. Initial state clean.",
+    "confidence": 0,
+    "failedTests": [],
+    "targetedChallenge": "Complete Milestone 1 to begin diagnostic verification."
+  }
+}

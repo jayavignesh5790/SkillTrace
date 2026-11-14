@@ -1,0 +1,172 @@
+{
+  "custom-devops-engineer": {
+    "id": "custom-devops-engineer",
+    "title": "DevOps Engineer",
+    "category": "DevOps & Cloud Infrastructure",
+    "timeline": "YOUR CAREER PATH • 5 MONTHS",
+    "description": "Personalized AI-architected curriculum tailored for DevOps Engineer.",
+    "difficulty": "Custom Intermediate",
+    "estimatedTimeToJob": "16-20 weeks",
+    "requiredSkills": [
+      {
+        "name": "Linux Administration & Bash",
+        "category": "Systems",
+        "importance": "Critical",
+        "targetLevel": 90
+      },
+      {
+        "name": "Docker & Containerization",
+        "category": "Containers",
+        "importance": "Critical",
+        "targetLevel": 85
+      },
+      {
+        "name": "CI/CD & GitHub Actions",
+        "category": "Automation",
+        "importance": "Critical",
+        "targetLevel": 90
+      },
+      {
+        "name": "Kubernetes & Orchestration",
+        "category": "Orchestration",
+        "importance": "Critical",
+        "targetLevel": 80
+      },
+      {
+        "name": "Terraform & Cloud IaC",
+        "category": "Cloud",
+        "importance": "Core",
+        "targetLevel": 80
+      }
+    ],
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "Linux Systems & Shell Scripting",
+        "desc": "Linux kernel • Process management • Bash pipelines",
+        "status": "In progress",
+        "icon": "1",
+        "circleBg": "bg-lime-200 text-slate-900 font-bold",
+        "statusClass": "text-emerald-600 font-bold"
+      },
+      {
+        "step": 2,
+        "title": "Containerization with Docker",
+        "desc": "Dockerfiles • Multi-stage builds • Networking & volumes",
+        "status": "Locked",
+        "icon": "2",
+        "circleBg": "bg-slate-100 text-slate-400 font-bold",
+        "statusClass": "text-slate-400"
+      },
+      {
+        "step": 3,
+        "title": "CI/CD Deployment Pipelines",
+        "desc": "GitHub Actions • Automated testing • Artifact registries",
+        "status": "Locked",
+        "icon": "3",
+        "circleBg": "bg-slate-100 text-slate-400 font-bold",
+        "statusClass": "text-slate-400"
+      },
+      {
+        "step": 4,
+        "title": "Kubernetes Orchestration & Helm",
+        "desc": "Deployments • Services • Ingress controllers • GitOps",
+        "status": "Locked",
+        "icon": "4",
+        "circleBg": "bg-slate-100 text-slate-400 font-bold",
+        "statusClass": "text-slate-400"
+      }
+    ],
+    "nextUp": {
+      "tag": "DEVO",
+      "title": "DevOps Engineer Foundations",
+      "details": "Practice • 20 min • Beginner",
+      "description": "Master core principles to establish your verified DevOps Engineer baseline."
+    }
+  },
+  "custom-ui-ux-designer": {
+    "id": "custom-ui-ux-designer",
+    "title": "UI/UX Designer",
+    "category": "UI/UX & Product Design",
+    "timeline": "YOUR CAREER PATH • 5 MONTHS",
+    "description": "Personalized AI-architected curriculum tailored for UI/UX Designer.",
+    "difficulty": "Custom Intermediate",
+    "estimatedTimeToJob": "16-20 weeks",
+    "requiredSkills": [
+      {
+        "name": "Design Systems & Figma Mastery",
+        "category": "Design",
+        "importance": "Critical",
+        "targetLevel": 95
+      },
+      {
+        "name": "Semantic HTML & Responsive CSS",
+        "category": "Frontend",
+        "importance": "Critical",
+        "targetLevel": 90
+      },
+      {
+        "name": "User Research & Heuristic Evaluation",
+        "category": "Research",
+        "importance": "Critical",
+        "targetLevel": 80
+      },
+      {
+        "name": "Interaction Design & Micro-animations",
+        "category": "Motion",
+        "importance": "Core",
+        "targetLevel": 85
+      },
+      {
+        "name": "Accessibility (WCAG 2.1 AA Standards)",
+        "category": "Compliance",
+        "importance": "Core",
+        "targetLevel": 85
+      }
+    ],
+    "roadmap": [
+      {
+        "step": 1,
+        "title": "Design Systems & Component Architecture",
+        "desc": "Typography scales • Color tokens • Reusable UI kits",
+        "status": "In progress",
+        "icon": "1",
+        "circleBg": "bg-lime-200 text-slate-900 font-bold",
+        "statusClass": "text-emerald-600 font-bold"
+      },
+      {
+        "step": 2,
+        "title": "Responsive Interactive Prototyping",
+        "desc": "CSS Flexbox & Grid • Micro-interactions • State animations",
+        "status": "Locked",
+        "icon": "2",
+        "circleBg": "bg-slate-100 text-slate-400 font-bold",
+        "statusClass": "text-slate-400"
+      },
+      {
+        "step": 3,
+        "title": "User Testing & Accessibility Auditing",
+        "desc": "Usability interviews • Screen reader verification • Contrast",
+        "status": "Locked",
+        "icon": "3",
+        "circleBg": "bg-slate-100 text-slate-400 font-bold",
+        "statusClass": "text-slate-400"
+      },
+      {
+        "step": 4,
+        "title": "Design Handoff & Production Engineering",
+        "desc": "Design tokens sync • Storybook docs • Developer specs",
+        "status": "Locked",
+        "icon": "4",
+        "circleBg": "bg-slate-100 text-slate-400 font-bold",
+        "statusClass": "text-slate-400"
+      }
+    ],
+    "nextUp": {
+      "tag": "UI/U",
+      "title": "UI/UX Designer Foundations",
+      "details": "Practice • 20 min • Beginner",
+      "description": "Master core principles to establish your verified UI/UX Designer baseline."
+    }
+  }
+}
